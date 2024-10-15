@@ -38,7 +38,7 @@ After installing the package, you can use it by simply running the main script (
 
  **Run the Main Script**:
     Run the `main.py` script to automate the entire process:
-    ```bash
+    ```
     python main.py
     ```
 
