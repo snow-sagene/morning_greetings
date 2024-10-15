@@ -57,17 +57,16 @@ All actions, including message generation and sending, are logged to `message_lo
 
 ## Package Structure
 ```bash
-morning_greetings/
-│
 ├── morning_greetings/
-│   ├── contacts.py         # Manage contacts
-│   ├── message_generator.py# Generate personalized messages
+│   ├── contact_manager.py  # Manage contacts
+│   ├── message_generator.py # Generate personalized messages
 │   ├── message_sender.py   # Simulate sending messages
 │   ├── logger.py           # Log sent messages
+│   ├── main.py             # Main script for automation
 │   └── __init__.py         # Package initializer
 │
-├── main.py                 # Main script for automation
 ├── setup.py                # Installation setup script
+├── message_log.txt         # Log file
 └── README.md               # Documentation
 
 
